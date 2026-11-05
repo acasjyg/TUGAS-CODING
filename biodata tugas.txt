@@ -1,0 +1,272 @@
+<!--DOCTYPE html-->
+<html>
+<head>
+    <title>DIREKTORI PROFIL KELAS X PPLG</title>
+</head>
+<body id="atas">
+    <header>
+        <h1>DIREKTORI PROFIL KELAS X PPLG</h1>
+        <p>Buku Digitalisasi Digital & Galeri Profil Siswa Rekayasa Perangkat Lunak</p>
+    </header>
+  
+        <h4>Informasi Umum Kelas</h4>
+    <table margin="auto" style="width: 50%; height: 30%; border: 1px solid; padding: 30px; background-color: #ffffff;" valign="center" align="center">
+        <tr>
+            <td><p><b>Wali Kelas</b></p></td>
+            <td><p>Bapak Moh. Shobirin, S.Kom</p></td>
+        </tr>
+        <tr>
+            <td><p><b>Ketua Kelas</b></p></td>
+            <td><p>M. Bilal Akbar</p></td>
+        </tr>
+        <tr>
+            <td><p><b>Jumlah Siswa</b></p></td>
+            <td><p>36 Siswa</p></td>
+        </tr>
+        <tr>
+            <td><p><b>Slogan Kelas</b></p></td>
+            <td><p><i>"Code Your Dream, Build Your Future"</i></p></td>
+        </tr>
+    </table>
+    
+    <section class="anggota">
+        <h3> Daftar Anggota Kelas:</h3>
+        <ol>
+            <li><a href="#siswa1">M. Bilal Akbar (Ketua Kelas)</a></li>
+            <li><a href="#siswa2">Attar Ibrar Al-Khafi (Sekretaris)</a></li>
+            <li><a href="#siswa3">Fatimah Nur Anggraini Putri (Wakil Ketua Kelas)</a></li>
+            <li><a href="#siswa4">Rihhadatul Azzah (Bendahara)</a></li>
+            <li><a href="#siswa5">Sofia Annisyahrini Amalia(Anggota)</a></li>
+        </ol>
+    </section>
+       
+    <section class="profil" id="siswa1">
+
+        <div class="judul-profil">
+            PROFIL SISWA #01 - M. BILAL AKBAR
+        </div>
+
+        <div class="isi-profil">
+
+            <div class="foto-dan-audio">
+
+                <div class="foto">
+                    <img src="Jalal.png" alt="Foto Profil M. Bilal Akbar" width="200" height="200">
+                </div>
+                
+                <div class="audio">
+                    <strong>🎙 Suara Perkenalan:</strong>
+                    <audio controls>
+                        <source src="audio-Jalal.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+            </div>
+        </div>
+
+        <div class="biodata">
+                <ul>
+                    <li>NISN: 0106630761</li>
+                    <li>Tempat, Tgl Lahir: Pasuruan,13 Maret 2010</li>
+                    <li>Hobi: Sepak bola</li>
+                    <li>Cita-cita: Tentara</li>
+                    <li>Motto: <i>"Dunia jahat yang baik cuma mama"</i></li>
+                </ul>
+
+                <details>
+                    <summary>Lihat Riwayat & Keahlian</summary>
+                    <ul>
+                        <li>Keahlian: Sepak bola & Gaming</li>
+                        <li>Pengalaman: Membuat halaman web sederhana</li>
+                    </ul>
+                </details>
+        </div>
+    </section>
+
+    <div class="kembali">
+        <a href="#atas">⬆ Kembali ke Atas</a>
+    </div>
+
+    <section class="profil" id="siswa2">
+
+        <div class="judul-profil">
+            PROFIL SISWA #02 - ATTAR IBRAR AL-KHAFI
+        </div>
+
+        <div class="isi-profil">
+
+            <div class="foto-dan-audio">
+
+                <div class="foto">
+                    <img src="Uyut.png" alt="Foto Profil Attar Ibrar Al-Khafi" width="200" height="200">
+                </div>
+                
+                <div class="audio">
+                    <strong>🎙 Suara Perkenalan:</strong>
+                    <audio controls>
+                        <source src="audio-Uyut.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+            </div>
+        </div>
+
+        <div class="biodata">
+                <ul>
+                    <li>NISN: 0119966916</li>
+                    <li>Tempat, Tgl Lahir: Pasuruan, 03 Mei 2011</li>
+                    <li>Hobi: Mengedit Foto atau video</li>
+                    <li>Cita-cita: Masuk Fakultas kedokteran bidang poli anak</li>
+                    <li>Motto: <i>"Stay enthusiastic in doing goodness and never give up easily"</i></li>
+                </ul>
+
+                <details>
+                    <summary>Lihat Riwayat & Keahlian</summary>
+                    <ul>
+                        <li>Keahlian: Menulis & Membaca</li>
+                        <li>Pengalaman: Membuat halaman web sederhana</li>
+                    </ul>
+                </details>
+        </div>
+    </section>
+
+    <div class="kembali">
+        <a href="#atas">⬆ Kembali ke Atas</a>
+    </div>
+
+    <section class="profil" id="siswa3">
+
+        <div class="judul-profil">
+            PROFIL SISWA #03 - FATIMAH NUR ANGGRAINI PUTRI
+        </div>
+
+        <div class="isi-profil">
+
+            <div class="foto-dan-audio">
+
+                <div class="foto">
+                    <img src="Puput.png" alt="Foto Profil Fatimah Nur Anggraini Putri" width="200" height="200">
+                </div>
+                
+                <div class="audio">
+                    <strong>🎙 Suara Perkenalan:</strong>
+                    <audio controls>
+                        <source src="audio-Puput.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+            </div>
+        </div>
+
+        <div class="biodata">
+                <ul>
+                    <li>NISN: 0106899550</li>
+                    <li>Tempat, Tgl Lahir: Pasuruan, 07 September 2010</li>
+                    <li>Hobi: Menari</li>
+                    <li>Cita-cita: Menjadi orang sukses dan mendapatkan uang yang halal / Menjadi Arsitek </li>
+                    <li>Motto: <i>"Kita tidak harus menjadi pemeran utama di hidup siapapun"</i></li>
+                </ul>
+
+                <details>
+                    <summary>Lihat Riwayat & Keahlian</summary>
+                    <ul>
+                        <li>Keahlian: Menari & Menggambar</li>
+                        <li>Pengalaman: Membuat halaman web sederhana</li>
+                    </ul>
+                </details>
+        </div>
+    </section>
+
+    <div class="kembali">
+        <a href="#atas">⬆ Kembali ke Atas</a>
+    </div>
+
+    <section class="profil" id="siswa4">
+
+        <div class="judul-profil">
+            PROFIL SISWA #04 - Rihhadatul Azzah
+        </div>
+
+        <div class="isi-profil">
+
+            <div class="foto-dan-audio">
+
+                <div class="foto"> 
+                    <img src="Jaja.png" alt="Foto Profil Rihhadatul Azzah" width="200" height="200">
+                </div>
+                
+                <div class="audio">
+                    <strong>🎙 Suara Perkenalan:</strong>
+                    <audio controls>
+                        <source src="audio-Jaja.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+            </div>
+        </div>
+
+        <div class="biodata">
+                <ul>
+                    <li>NISN: 0102181174</li>
+                    <li>Tempat, Tgl Lahir: Pasuruan, 8 Oktober 2010</li>
+                    <li>Hobi: Mendengar musik</li>
+                    <li>Cita-cita: Menjadi orang sukses</li>
+                    <li>Motto: <i>"Jadilah lebih baik dari dirimu yang kemarin"</i></li>
+                </ul>
+
+                <details>
+                    <summary>Lihat Riwayat & Keahlian</summary>
+                    <ul>
+                        <li>Keahlian: Menulis & Membaca</li>
+                        <li>Pengalaman: Membuat halaman web sederhana</li>
+                    </ul>
+                </details>
+            </div>
+    </section>
+
+    <div class="kembali">
+        <a href="#atas">⬆ Kembali ke Atas</a>
+    </div>
+
+    <section class="profil" id="siswa5">
+
+        <div class="judul-profil">
+            PROFIL SISWA #05 - Sofia Annisyahrini Amalia
+        </div>
+
+        <div class="isi-profil">
+
+            <div class="foto-dan-audio">
+
+                <div class="foto">
+                    <img src="Copia.png" alt="Foto Profil Sofia Annisyahrini Amalia" width="200" height="200">
+                </div>
+                
+                <div class="audio">
+                    <strong>🎙 Suara Perkenalan:</strong>
+                    <audio controls>
+                        <source src="audio-Copia.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+            </div>
+        </div>
+        <div class="biodata">
+                <ul>
+                    <li>NISN: 0119682893</li>
+                    <li>Tempat, Tgl Lahir: Pasuruan, 6 Januari 2011</li>
+                    <li>Hobi: Membaca buku</li>
+                    <li>Cita-cita: Software Engineer</li>
+                    <li>Motto: <i>" it's fine to fake it until you make it, until you do, until it's true-Taylor Swift"</i></li>
+                </ul>
+
+                <details>
+                    <summary>Lihat Riwayat & Keahlian</summary>
+                    <ul>
+                        <li>Keahlian: Menulis & Membaca</li>
+                        <li>Pengalaman: Membuat halaman web sederhana</li>
+                    </ul>
+                </details>
+            </div>
+    </section>
+
+    <div class="kembali">
+        <a href="#atas">⬆ Kembali ke Atas</a>
+    </div>
+</body>
+</html>
