@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Login</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #0b0f12;
+            color: white;
+            min-height: 100vh;
+        }
+
+        .container {
+            display: flex;
+            min-height: 100vh;
+        }
+
+        /* BAGIAN KIRI */
+        .left {
+            width: 56.5%;
+            background: #080d11;
+            border-right: 2px solid #303337;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        .logo {
+            position: absolute;
+            top: 55px;
+            left: 60px;
+            width: 78px;
+            height: 78px;
+            border: 7px solid #e1306c;
+            border-radius: 22px;
+        }
+
+        .logo::before {
+            content: "";
+            position: absolute;
+            width: 29px;
+            height: 29px;
+            border: 6px solid #e1306c;
+            border-radius: 50%;
+            left: 16px;
+            top: 16px;
+        }
+
+        .logo::after {
+            content: "";
+            position: absolute;
+            width: 8px;
+            height: 8px;
+            background: #e1306c;
+            border-radius: 50%;
+            right: 8px;
+            top: 8px;
+        }
+
+        .left h1 {
+            text-align: center;
+            font-size: 42px;
+            line-height: 1.35;
+            font-weight: 400;
+        }
+
+        .gradient {
+            background: linear-gradient(
+                90deg,
+                #ff3b30,
+                #ff006e,
+                #c13584
+            );
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* GAMBAR DEKORASI */
+        .photos {
+            margin-top: 35px;
+            width: 310px;
+            height: 245px;
+            position: relative;
+        }
+
+        .photo {
+            position: absolute;
+            width: 135px;
+            height: 190px;
+            border-radius: 15px;
+        }
+
+        .photo.one {
+            left: 15px;
+            top: 25px;
+            transform: rotate(-5deg);
+            background: #356b42;
+        }
+
+        .photo.two {
+            left: 88px;
+            top: 0;
+            height: 225px;
+            transform: rotate(1deg);
+            background: #9b8d55;
+        }
+
+        .photo.three {
+            right: 10px;
+            top: 35px;
+            transform: rotate(5deg);
+            background: #bd684e;
+        }
+
+        /* BAGIAN KANAN */
+        .right {
+            width: 43.5%;
+            min-height: 100vh;
+            background: #202022;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .login {
+            width: 72%;
+            max-width: 560px;
+        }
+
+        .login h2 {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        input {
+            width: 100%;
+            height: 62px;
+            margin-bottom: 13px;
+            padding: 0 16px;
+            background: #202022;
+            border: 1px solid #626267;
+            border-radius: 15px;
+            color: white;
+            font-size: 16px;
+            outline: none;
+        }
+
+        input::placeholder {
+            color: #99999e;
+        }
+
+        .login-button {
+            width: 100%;
+            height: 46px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 25px;
+            background: #1769c2;
+            color: #aaa;
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        .forgot {
+            display: block;
+            text-align: center;
+            margin-top: 25px;
+            margin-bottom: 70px;
+            color: white;
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        .facebook {
+            width: 100%;
+            height: 48px;
+            border: none;
+            border-radius: 25px;
+            background: #29292c;
+            color: #ddd;
+            font-size: 15px;
+        }
+
+        .facebook b {
+            color: #1877f2;
+            font-size: 18px;
+            margin-right: 8px;
+        }
+
+        .create {
+            width: 100%;
+            height: 48px;
+            margin-top: 10px;
+            border: 1px solid #1683e8;
+            border-radius: 25px;
+            background: transparent;
+            color: #1683e8;
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        .meta {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 16px;
+            color: #ddd;
+        }
+
+        /* TAMPILAN HP */
+        @media (max-width: 800px) {
+            .left {
+                display: none;
+            }
+
+            .right {
+                width: 100%;
+            }
+
+            .login {
+                width: 85%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- BAGIAN KIRI -->
+        <div class="left">
+
+            <div class="logo"></div>
+
+            <h1>
+                See everyday moments from your<br>
+                <span class="gradient">close friends.</span>
+            </h1>
+
+            <div class="photos">
+                <div class="photo one"></div>
+                <div class="photo two"></div>
+                <div class="photo three"></div>
+            </div>
+
+        </div>
+
+        <!-- BAGIAN KANAN -->
+        <div class="right">
+
+            <div class="login">
+
+                <h2>Log into Instagram</h2>
+
+                <input
+                    type="text"
+                    placeholder="Mobile number, username or email"
+                >
+
+                <input
+                    type="password"
+                    placeholder="Password"
+                >
+
+                <button class="login-button">
+                    Log in
+                </button>
+
+                <a href="#" class="forgot">
+                    Forgot password?
+                </a>
+
+                <button class="facebook">
+                    <b>f</b>
+                    Log in with Facebook
+                </button>
+
+                <button class="create">
+                    Create new account
+                </button>
+
+                <div class="meta">
+                    ∞ Meta
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
