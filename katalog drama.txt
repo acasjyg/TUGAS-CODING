@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Katalog Drama</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 25px;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        /* KATALOG 5 KOLOM */
+        .katalog {
+            max-width: 1200px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 18px;
+        }
+
+        /* KARTU DRAMA */
+        .card {
+            background-color: white;
+            border-radius: 12px;
+            overflow: hidden;
+            text-decoration: none;
+            color: black;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+            transition: 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+        }
+
+        /* GAMBAR POSTER */
+        .poster {
+            width: 100%;
+            aspect-ratio: 2 / 3;
+            object-fit: cover;
+            display: block;
+        }
+
+        /* NAMA DRAMA */
+        .judul {
+            padding: 12px;
+            text-align: center;
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        /* TABLET */
+        @media (max-width: 900px) {
+            .katalog {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        /* HP */
+        @media (max-width: 600px) {
+            body {
+                padding: 12px;
+            }
+
+            .katalog {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 12px;
+            }
+
+            .judul {
+                font-size: 13px;
+                padding: 9px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>🎬 Katalog Drama</h1>
+
+    <div class="katalog">
+
+
+        <!-- ========================= -->
+        <!-- DRAMA 1 -->
+        <!-- ========================= -->
+
+        <a class="card"
+           href="https://www.youtube.com/watch?v=4F74eMcTd3o"
+           target="_blank">
+
+            <img class="poster"
+                 src="https://img.youtube.com/vi/4F74eMcTd3o/hqdefault.jpg"
+                 alt="Drama 1">
+
+            <div class="judul">
+                Drama 1
+            </div>
+
+        </a>
+
+
+        <!-- ========================= -->
+        <!-- DRAMA 2 -->
+        <!-- ========================= -->
+
+        <a class="card"
+           href="https://www.youtube.com/watch?v=ScMzIvxBSi4"
+           target="_blank">
+
+            <img class="poster"
+                 src="https://img.youtube.com/vi/ScMzIvxBSi4/hqdefault.jpg"
+                 alt="Drama 2">
+
+            <div class="judul">
+                Drama 2
+            </div>
+
+        </a>
+
+
+        <!-- ========================= -->
+        <!-- DRAMA 3 -->
+        <!-- ========================= -->
+
+        <a class="card"
+           href="https://www.youtube.com/watch?v=jNQXAC9IVRw"
+           target="_blank">
+
+            <img class="poster"
+                 src="https://img.youtube.com/vi/jNQXAC9IVRw/hqdefault.jpg"
+                 alt="Drama 3">
+
+            <div class="judul">
+                Drama 3
+            </div>
+
+        </a>
+
+
+        <!-- ========================= -->
+        <!-- DRAMA 4 -->
+        <!-- ========================= -->
+
+        <a class="card"
+           href="https://www.youtube.com/watch?v=5bJow8DmG9s"
+           target="_blank">
+
+            <img class="poster"
+                 src="https://img.youtube.com/vi/5bJow8DmG9s/hqdefault.jpg"
+                 alt="Drama 4">
+
+            <div class="judul">
+                Drama 4
+            </div>
+
+        </a>
+
+
+        <!-- ========================= -->
+        <!-- DRAMA 5 -->
+        <!-- ========================= -->
+
+        <a class="card"
+           href="https://www.youtube.com/watch?v=tgbNymZ7vqY"
+           target="_blank">
+
+            <img class="poster"
+                 src="https://img.youtube.com/vi/tgbNymZ7vqY/hqdefault.jpg"
+                 alt="Drama 5">
+
+            <div class="judul">
+                Drama 5
+            </div>
+
+        </a>
+
+
+        <!-- ========================= -->
+        <!-- DRAMA 6 -->
+        <!-- ========================= -->
+
+        <a class="card"
+           href="https://www.melolo.org/s/ZaLmqyoX1/"
+           target="_blank">
+
+            <img class="poster"
+                 src="drama6.jpg"
+                 alt="Kesayangan Sekte Pedang">
+
+            <div class="judul">
+                Kesayangan Sekte Pedang
+            </div>
+
+        </a>
+
+
+        <!-- ========================= -->
+        <!-- DRAMA 7 -->
+        <!-- ========================= -->
+
+        <a class="card"
+           href="https://www.melolo.org/s/ZaLmqehrN/"
+           target="_blank">
+
+            <img class="poster"
+                 src="drama7.jpg"
+                 alt="Ayah Berandalan jadi CEO">
+
+            <div class="judul">
+                Ayah Berandalan jadi CEO
+            </div>
+
+        </a>
+
+
+        <!-- ========================= -->
+        <!-- DRAMA 8 -->
+        <!-- ========================= -->
+
+        <a class="card"
+           href="https://www.melolo.org/s/ZaLmqRWQM/"
+           target="_blank">
+
+            <img class="poster"
+                 src="drama8.jpg"
+                 alt="Kebangkitan Putri Asli">
+
+            <div class="judul">
+                Kebangkitan Putri Asli
+            </div>
+
+        </a>
+
+
+        <!-- ========================= -->
+        <!-- DRAMA 9 -->
+        <!-- ========================= -->
+
+        <a class="card"
+           href="https://www.melolo.org/s/ZaLmqLfgK/"
+           target="_blank">
+
+            <img class="poster"
+                 src="drama9.jpg"
+                 alt="Kisah Jarum Sakti">
+
+            <div class="judul">
+                Kisah Jarum Sakti
+            </div>
+
+        </a>
+
+
+        <!-- ========================= -->
+        <!-- DRAMA 10 -->
+        <!-- ========================= -->
+
+        <a class="card"
+           href="https://www.melolo.org/s/ZaLmqrrf8/"
+           target="_blank">
+
+            <img class="poster"
+                 src="drama10.jpg"
+                 alt="Taklukkan Idola Terganteng">
+
+            <div class="judul">
+                Taklukkan Idola Terganteng
+            </div>
+
+        </a>
+
+
+    </div>
+
+</body>
+</html>
